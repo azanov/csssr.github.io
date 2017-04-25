@@ -143,8 +143,8 @@ gen.array(gen.int) // генератор массивов целых чисел
 ```
 Из чего состоит наша структура (данные о семье):
 
- - `type` – может быть `espoused`, `single`, `common_law_marriage`, `undefined`
- - `members` – массив объектов с такой структурой;
+ - `type` – может быть `espoused`, `single`, `common_law_marriage`, `undefined`;
+ - `members` – массив объектов с такой структурой:
    + `role` – может быть `sibling`, `child`, `parent`, `spouse`;
    + `fio` – объект с ключами `firstname`, `lastname`, `middlename`;
    + `dependant` – `boolean` или `undefined`.
